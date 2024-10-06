@@ -8,10 +8,10 @@ dbConnection();
 app.use(express.json());
 
 
-//socket io connection
 
 
 
-app.listen(7000, () => {
+
+app.listen(5000, () => {
   console.log("server properly connected");
 });
