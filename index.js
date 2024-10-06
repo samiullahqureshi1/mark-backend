@@ -1,6 +1,7 @@
 import dotenv from "dotenv";
 import express from "express";
 import favicon from "serve-favicon";
+import path from "path"; // Import path to resolve the file path
 import { dbConnection } from "./db_connection.js";
 const app = express();
 dotenv.config();
